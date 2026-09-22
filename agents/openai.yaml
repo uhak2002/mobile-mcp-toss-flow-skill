@@ -1,0 +1,6 @@
+interface:
+  display_name: "Toss-style Mobile Flow"
+  short_description: "Design clear mobile app and responsive web flows"
+  default_prompt: "Use $toss-flow-design to design a clear mobile app or web user flow for my service."
+policy:
+  allow_implicit_invocation: true
