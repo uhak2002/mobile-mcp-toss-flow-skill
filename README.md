@@ -14,6 +14,7 @@
 - `SKILL.md`: 스킬의 핵심 지침
 - `references/domain-adaptation.md`: 다양한 산업에 적용하는 방법
 - `agents/openai.yaml`: Codex 스킬 표시 및 호출 설정
+- `.claude/skills/toss-flow-design/`: Claude Code용으로 조정한 스킬 (프로젝트 스킬)
 - `ANALYSIS.md`: Mobile MCP 연결 및 앱 동선 분석 기록
 
 ## 사용 예시
@@ -24,3 +25,13 @@ $toss-flow-design 배관 현장관리 모바일 웹의 전체 사용자 동선�
 
 이 스킬은 토스의 브랜드, 문구, 아이콘, 화면을 복제하지 않습니다. 요약 중심 홈, 고정 탐색, 한 화면의 명확한 대표 행동, 점진적 정보 공개, 즉각적인 피드백 같은 일반적인 UX 원칙만 재사용합니다.
 
+
+## Claude Code에서 사용하기
+
+이 저장소를 clone하면 `.claude/skills/toss-flow-design/`이 프로젝트 스킬로 자동 인식됩니다. 모든 프로젝트에서 쓰려면 사용자 스킬로 복사하세요.
+
+```bash
+cp -r .claude/skills/toss-flow-design ~/.claude/skills/
+```
+
+호출: `/toss-flow-design 배관 현장관리 모바일 웹의 전체 사용자 동선을 설계해줘`
